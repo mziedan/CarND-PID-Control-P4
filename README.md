@@ -16,7 +16,7 @@ The adjustable setting for proportional control is called the Controller Gain (K
 If the controller gain is set too high the control loop will begin oscillating and become unstable. If the controller gain is set too low, it will not respond adequately to disturbances or set point changes.
 
 <figure>
- <img src="./README_images/P-Action.jpg" width="380" height="410" alt="Proportional (P)" align="middle" />
+ <img src="./images/P-Action.jpg" width="380" height="410" alt="Proportional (P)" align="middle" />
 </figure>
 
 ### Integral (I):
