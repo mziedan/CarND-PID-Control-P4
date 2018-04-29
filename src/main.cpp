@@ -67,10 +67,7 @@ int main()
 
           pid.UpdateError(cte);
 
-          steer_value = - pid.Kp * pid.p_error 
-                        - pid.Kd * pid.d_error 
-                        - pid.Ki * pid.i_error;
-          //steer_value -= pid.TotalError();
+          steer_value = -pid.TotalError();
           // Correct steer_value to range [-1..1]
           if (steer_value > 1)
           {
